@@ -82,7 +82,7 @@ run a function with a custom time period, eg. once `every` 6 hours
 import { every } from "daily-at";
 
 // 6 hours (in milliseconds)
-every(1000 * 60 * 60 * 6 () => {
+every(1000 * 60 * 60 * 6, () => {
     console.log("Hello World!");
 })
 ```
