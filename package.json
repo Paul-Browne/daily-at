@@ -1,11 +1,12 @@
 {
   "name": "daily-at",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "scheduler like cron job for node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Paul-Browne/daily-at.git"
